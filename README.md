@@ -41,20 +41,21 @@ Este projeto foi construído para praticar e demonstrar conceitos de:
 O código-fonte está organizado da seguinte forma:
 
 /
-├── public/             # Arquivos públicos, prontos para serem servidos
+├── public/                 # Arquivos públicos, prontos para serem servidos
 │   ├── assets/
 │   │   ├── js/
-│   │   │   └── bundle.js     # Código JS compilado pelo Webpack
-│   └── index.html          # Arquivo principal da aplicação
+│   │   │   └── bundle.js       # Código JS compilado pelo Webpack
+│   └── index.html              # Arquivo principal da aplicação
 │
-└── src/                # Código-fonte do projeto
+└── src/                    # Código-fonte do projeto
     ├── assets/
     │   └── css/
-    │       └── style.css   # Arquivo de estilos
+    │       └── style.css       # Arquivo de estilos
     ├── modules/
-    │   ├── GeraCPF.js    # Módulo responsável por gerar o CPF
-    │   └── ValidaCPF.js  # Módulo com a lógica de cálculo dos dígitos
-    └── main.js             # Ponto de entrada da aplicação JS
+    │   ├── GeraCPF.js          # Módulo responsável por gerar o CPF
+    │   └── ValidaCPF.js        # Módulo com a lógica de cálculo dos dígitos
+    └── main.js                 # Ponto de entrada da aplicação JS
+
 
 * A pasta `src` contém todo o código original que foi desenvolvido.
 * A pasta `public` contém a versão final da aplicação, que pode ser aberta diretamente no navegador.
