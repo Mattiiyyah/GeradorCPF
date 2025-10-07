@@ -2,37 +2,38 @@
 
 Este é um projeto simples desenvolvido como parte de um curso de programação, com o objetivo de criar uma aplicação web que gera números de CPF (Cadastro de Pessoas Físicas) válidos.
 
-
 ---
 
 ## 📋 Descrição do Projeto
 
-A aplicação consiste em uma única página web que exibe um número de CPF formatado e um botão. Ao carregar a página, um novo CPF válido é gerado e exibido. Ao clicar no botão "Gerar CPF", a página é atualizada, gerando um novo número.
+A aplicação consiste em uma única página web que exibe um número de CPF formatado e um botão.  
+Ao carregar a página, um novo CPF válido é gerado e exibido.  
+Ao clicar no botão **"Gerar CPF"**, a página é atualizada, gerando um novo número.
 
 Este projeto foi construído para praticar e demonstrar conceitos de:
 
-* Manipulação do DOM com JavaScript puro.
-* Modularização de código em JavaScript (ES6 Modules).
-* Utilização de algoritmos para geração de dígitos verificadores.
-* Estruturação básica de um projeto front-end com `Webpack`.
+- Manipulação do DOM com JavaScript puro.  
+- Modularização de código em JavaScript (ES6 Modules).  
+- Utilização de algoritmos para geração de dígitos verificadores.  
+- Estruturação básica de um projeto front-end com **Webpack**.
 
 ---
 
 ## ✨ Funcionalidades
 
-* **Geração de CPFs Válidos**: Gera um número de CPF com os dois dígitos verificadores calculados corretamente, garantindo que o número seja matematicamente válido.
-* **Formatação Automática**: O CPF gerado é exibido no formato padrão `XXX.XXX.XXX-XX` para fácil leitura.
-* **Interface Simples**: Uma tela limpa e intuitiva, focada exclusivamente na funcionalidade principal.
-* **Botão para Gerar Novo CPF**: Permite ao usuário gerar um novo CPF a qualquer momento, simplesmente clicando em um botão.
+- **Geração de CPFs Válidos:** Gera um número de CPF com os dois dígitos verificadores calculados corretamente, garantindo que o número seja matematicamente válido.  
+- **Formatação Automática:** O CPF gerado é exibido no formato padrão `XXX.XXX.XXX-XX` para fácil leitura.  
+- **Interface Simples:** Uma tela limpa e intuitiva, focada exclusivamente na funcionalidade principal.  
+- **Botão para Gerar Novo CPF:** Permite ao usuário gerar um novo CPF a qualquer momento, simplesmente clicando em um botão.
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-* **HTML5**: Para a estrutura semântica da página.
-* **CSS3**: Para a estilização, layout e design responsivo.
-* **JavaScript (ES6+)**: Para toda a lógica de programação, incluindo a geração dos números e a manipulação da página.
-* **Webpack**: Utilizado como empacotador de módulos para organizar e compilar o código JavaScript e CSS em arquivos estáticos (`bundle.js`) para o navegador.
+- **HTML5:** Estrutura semântica da página.  
+- **CSS3:** Estilização, layout e design responsivo.  
+- **JavaScript (ES6+):** Lógica de programação e manipulação da página.  
+- **Webpack:** Empacotador de módulos para organizar e compilar o código JS e CSS em arquivos estáticos (`bundle.js`) para o navegador.
 
 ---
 
@@ -40,6 +41,7 @@ Este projeto foi construído para praticar e demonstrar conceitos de:
 
 O código-fonte está organizado da seguinte forma:
 
+```bash
 /
 ├── public/                 # Arquivos públicos, prontos para serem servidos
 │   ├── assets/
@@ -56,7 +58,7 @@ O código-fonte está organizado da seguinte forma:
     │   └── ValidaCPF.js        # Módulo com a lógica de cálculo dos dígitos
     └── main.js                 # Ponto de entrada da aplicação JS
 
-
+```
 * A pasta `src` contém todo o código original que foi desenvolvido.
 * A pasta `public` contém a versão final da aplicação, que pode ser aberta diretamente no navegador.
 
