@@ -82,8 +82,6 @@ Se você deseja modificar o código-fonte:
 2.  Instale as dependências do projeto (execute `npm install` no terminal).
 3.  Faça as alterações desejadas nos arquivos dentro da pasta `src`.
 4.  Execute o script do Webpack (geralmente `npm run build` ou similar) para gerar o novo `bundle.js`.
-5.  Executa o comando `npm rum dev` para inciar o projeto na web.
-6.  Pronto agora só executar a página HTML no navegador de preferência.
 
 ---
 
